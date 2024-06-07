@@ -152,6 +152,60 @@
 // })
 // console.log(arr4.length);
 
+// 13-masala
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// arr.splice(2, 3);
+// // console.log(arr);
+// let str=arr.join("");
+// console.log(str.length);
+
+// 14-masala
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// // console.log(arr.length);
+// let arr1=arr.slice(3, arr.length-1);
+// console.log(arr1);
+
+
+// 15-masala
+// let arr=[1, 2, 3, [4, 5], 6, [7, 8, 9]];
+// let arr1=arr.flat();
+// // console.log(arr1);
+// let lastItem=arr1.at(arr1.length-1);
+// console.log(lastItem);
+
+// 16-masala
+// let arr=[1, 2, 3, 4 ,5];
+// let uch=arr.at(2);
+// arr.unshift(uch);
+// console.log(arr.length);
+
+
+// 17-masala
+// let arr=[1,2,3,4,5,6];
+// let arr1=arr.reverse();
+// let str=arr1.join("");
+// let lastItem=str[str.length-1];
+// console.log(lastItem);
+
+
+// 18-masala
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let arr1=arr.slice(0, 2);
+// let arr2=arr.splice(4, arr.length-1);
+// console.log(arr2);
+
+
+// 19-masala
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let arr1=arr.splice(3, 2);
+// console.log(arr.reverse());
+
+// 20-masala
+let arr=[1,2,3,4,5,6,7,8,9];
+let str=arr.join(",");
+let arr1=str.split(",");
+console.log(arr1);
+
 
 
 
